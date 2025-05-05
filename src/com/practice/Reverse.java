@@ -6,8 +6,7 @@ public class Reverse {
 		
 		String revrse ="";
 		for(int i=0;i<str.length();i++) {
-			revrse=str.charAt(i)+revrse
-					;
+			revrse=str.charAt(i)+revrse;
 		}
 		System.out.println("reverse string is "+revrse);
 	}
